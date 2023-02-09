@@ -10,7 +10,7 @@ while True:
     pyautogui.press("p")
     pyautogui.keyUp("shiftleft")
     pyautogut.typewrite("lease donate")
-    pyautogui.press(["enter"])
+    pyautogui.press('enter')
     time.sleep(8)
     pyautogui.dragTo(334, 430, duration=0.2, button="left")
     pyautogui.press("d")
