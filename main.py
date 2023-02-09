@@ -1,7 +1,7 @@
 import pyautogui # pip install pyautogui
 import keyboard as k # pip install keyboard
 import time
-# say --> x: 0334 y: 0430
+# say --> x: 0334 y: 0430 or 71, 318
 time.sleep(3)
 pyautogui.moveTo(334, 430, duration = 1.5) 
 
