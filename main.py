@@ -1,7 +1,9 @@
 import pyautogui
 import keyboard as k # pip install keyboard
 import time
-time.sleep(3)
+time.sleep(4)
+pyautogui.press("//e dance2")
+
 while True:
     pyautogui.press("/")
     pyautogui.keyDown("shiftleft")
@@ -17,7 +19,7 @@ while True:
     pyautogui.press("t")
     pyautogui.press("e")
     k.press_and_release("enter")
-    time.sleep(8)
+    time.sleep(120)
     pyautogui.press("/")
     pyautogui.press("d")
     pyautogui.press("o") 
@@ -43,7 +45,7 @@ while True:
     pyautogui.press("p")
     pyautogui.press("y")
     k.press_and_release("enter")
-    time.sleep(8)
+    time.sleep(120)
     pyautogui.press("/")
     pyautogui.press("p")
     pyautogui.press("l")
@@ -56,4 +58,4 @@ while True:
     pyautogui.press("s")
     pyautogui.press("s")
     k.press_and_release("enter")
-    time.sleep(8)
+    time.sleep(120)
